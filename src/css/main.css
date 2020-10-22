@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+}
+
+main #main {
+  width: 65vw;
+  height: 100vh;
+  background-color: #e2dddd;
+}
+
+main #side {
+  width: 35vw;
+  height: 100vh;
+  background: -webkit-gradient(linear, left bottom, left top, from(#208cf5), to(#26a3c0));
+  background: linear-gradient(to top, #208cf5, #26a3c0);
+}
+/*# sourceMappingURL=main.css.map */
