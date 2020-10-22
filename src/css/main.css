@@ -15,12 +15,14 @@ main {
           flex-direction: row;
   height: 100vh;
   width: 100vw;
+  overflow: hidden;
 }
 
 main #main {
   width: 65vw;
   height: 100vh;
   background-color: #e2dddd;
+  position: relative;
 }
 
 main #side {
@@ -28,5 +30,18 @@ main #side {
   height: 100vh;
   background: -webkit-gradient(linear, left bottom, left top, from(#208cf5), to(#26a3c0));
   background: linear-gradient(to top, #208cf5, #26a3c0);
+  z-index: 2;
+}
+
+main #nav {
+  width: 35vw;
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+  background-color: red;
+  z-index: 5;
+}
+
+main .squished {
+  display: none;
 }
 /*# sourceMappingURL=main.css.map */

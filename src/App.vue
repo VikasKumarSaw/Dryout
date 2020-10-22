@@ -1,9 +1,8 @@
 <template>
-  <main>
-    <section id="main"><app-main /></section>
-    <section id="side"><app-side /></section>
-  </main>
-  <section id="nav"></section>
+    <main>
+      <app-main />
+      <app-side />
+    </main>
 </template>
 
 <script>
@@ -13,6 +12,13 @@ export default {
   components:{
     'app-side' : sidebar,
     'app-main': main,
+  },
+  data(){
+    return{
+    }
+  },
+  methods:{
+
   }
 }
 </script>

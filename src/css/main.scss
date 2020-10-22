@@ -10,14 +10,30 @@ main{
 
     height: 100vh;
     width: 100vw;
+    overflow: hidden;
     #main{
         width: 65vw;
         height: 100vh;
         background-color: rgb(226, 221, 221);
+        position: relative;
     }
     #side{
         width: 35vw;
         height: 100vh;
         background:linear-gradient(to top,#208cf5,#26a3c0);
+        z-index: 2;
+        
     }
+    #nav{
+        width: 35vw;
+        transition: all 1s ease-in;
+        background-color: red;
+        // transform: translateX(15vw);
+        z-index: 5;
+    }
+    .squished{
+        // transform: translateX(-15vw);
+        display: none;
+    }
+
 }
