@@ -33,6 +33,19 @@ main #side {
   z-index: 2;
 }
 
+main #side .temp-container {
+  width: 100%;
+  padding-top: 25vh;
+  background-color: #8d2020;
+  height: 60vh;
+}
+
+main #side .temp {
+  width: 50%;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
 main #nav {
   width: 35vw;
   -webkit-transition: all 1s ease-in;

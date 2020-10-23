@@ -1,7 +1,10 @@
 <template>
-  <section id="">
-      temperature
-  </section>
+    <div class="temp-container">
+        <section class="temp">
+            temperature
+        </section>
+    </div>
+
 </template>
 
 <script>

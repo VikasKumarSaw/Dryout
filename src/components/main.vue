@@ -31,12 +31,13 @@ export default {
         position: relative;
         padding: 1rem;
         text-align: center;
-        background: #000;
+        /* background: #000; */
         height: 10vh;
+        font-size: 1.2rem;
     }
     #title{
-
+        padding: 4rem;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 2.5rem;
+        font-size: 2.8rem;
     }
 </style>

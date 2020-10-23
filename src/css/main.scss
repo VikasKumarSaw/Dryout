@@ -23,6 +23,21 @@ main{
         background:linear-gradient(to top,#208cf5,#26a3c0);
         z-index: 2;
         
+
+        & .temp-container{
+            width: 100%;
+            padding-top: 25vh;
+            background-color: rgb(141, 32, 32);
+            height: 60vh;
+        }
+        
+        & .temp{
+            width: 50%;
+
+            background-color: #fff;
+            margin: 0 auto;
+
+        }
     }
     #nav{
         width: 35vw;
