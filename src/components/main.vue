@@ -1,13 +1,18 @@
 <template>
     <section id="main">
         <div class="main-container">
+            <div class="stats-container upper-main">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
             <div id="title">DRYOUT</div>
+            <div class="stats-container lower-main">
+                <div></div>
+            </div>
         </div>
         <footer>
-          <span>&copy; Vikas Saw - 2020</span>
-          <i>A</i>
-          <i>B</i>
-          <i>C</i>
+          <span>&copy; Vikas Saw 2020</span>
         </footer>
     </section>
 </template>
@@ -24,20 +29,7 @@ export default {
 </script>
 
 <style>
-    .main-container{
-        height: 90vh;
-    }
-    footer{
-        position: relative;
-        padding: 1rem;
-        text-align: center;
-        /* background: #000; */
-        height: 10vh;
-        font-size: 1.2rem;
-    }
-    #title{
-        padding: 4rem;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 2.8rem;
-    }
+    
+    
+
 </style>
