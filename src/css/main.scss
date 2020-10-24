@@ -103,9 +103,9 @@ main{
     justify-content: center;
    
     
-    & :nth-child(1){margin-left: 2rem;}
-    & :nth-child(2){margin:0 2rem;}
-    & :nth-child(3){margin-right: 2rem;}
+    & :nth-child(1){margin-left: 2.5vw;}
+    & :nth-child(2){margin:0 2.5vw;}
+    & :nth-child(3){margin-right: 2.5vw;}
     div{
         // width: 18rem;
         width: 25vw;
@@ -127,11 +127,7 @@ main{
 
 .stats-container{
     width: 100%;
-    
-    
-    // background-color: #fff;border: 1px solid red;
-    
-    
+
     div{
         background-color: $dark;
         border-radius: 0.4rem;
@@ -169,8 +165,8 @@ footer{
 
 .sidebar_stats{
     background-color:$dark;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin: 2rem;
+    // margin-left: 2rem;
+    // margin-right: 2rem;
+    margin: 2.5vh 2.5vw 0 2.5vw;
     height: 15vh;
 }

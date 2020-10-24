@@ -118,15 +118,15 @@ main #side-nav {
 }
 
 .upper-main :nth-child(1) {
-  margin-left: 2rem;
+  margin-left: 2.5vw;
 }
 
 .upper-main :nth-child(2) {
-  margin: 0 2rem;
+  margin: 0 2.5vw;
 }
 
 .upper-main :nth-child(3) {
-  margin-right: 2rem;
+  margin-right: 2.5vw;
 }
 
 .upper-main div {
@@ -181,9 +181,7 @@ footer {
 
 .sidebar_stats {
   background-color: #282E32;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin: 2rem;
+  margin: 2.5vh 2.5vw 0 2.5vw;
   height: 15vh;
 }
 /*# sourceMappingURL=main.css.map */
