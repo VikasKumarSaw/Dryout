@@ -1,5 +1,5 @@
 <template>
-  <section id="">
+  <section class="sidebar_stats">
       stats
   </section>
 </template>

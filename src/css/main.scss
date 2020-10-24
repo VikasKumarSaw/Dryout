@@ -15,7 +15,7 @@ main{
     overflow: hidden;
 
     #main{
-        width: calc(75vw - 2rem);
+        width: 75vw;
         height: 100vh;
         background-color: $darker;
         position: relative;
@@ -24,7 +24,7 @@ main{
 
     }
     #side{
-        width : calc(25vw - 2rem);
+        width : 20vw;
         height: 100vh;
         background-color: $darkest;
         z-index: 2;
@@ -87,43 +87,50 @@ main{
         }
     }
     #side-nav{
-        width: 4rem;
+        width: 5vw;
         background-color: $darkest;
     }
 
 }
 
 .upper-main{
-    height: 8rem;
+    // height: 8rem;
+    height: 20vh;
+    // background-color: red;
+    display: flex;
     padding-top: 1rem;
     align-items: flex-end;
-    div{
-        width: 18rem;
-        height: 6rem;
-    }
-}
-
-.lower-main{
-    height: 20rem;
-    padding-top: 1.5rem;
-    div{
-        margin: 0 2rem;
-        width: 100%;
-        height: 55vh;
-    }
-}
-
-.stats-container{
-    width: 100%;
-    display: flex;
-    
-    // background-color: #fff;border: 1px solid red;
     justify-content: center;
    
     
     & :nth-child(1){margin-left: 2rem;}
     & :nth-child(2){margin:0 2rem;}
     & :nth-child(3){margin-right: 2rem;}
+    div{
+        // width: 18rem;
+        width: 25vw;
+        // height: 6rem;
+        height: 15vh;
+    }
+}
+
+.lower-main{
+    // background-color: blue;
+    height: 60vh;
+    // padding-top: 1.5rem;
+    div{
+        margin: 0 5vh;
+        width: 70vw;
+        height: 55vh;
+    }
+}
+
+.stats-container{
+    width: 100%;
+    
+    
+    // background-color: #fff;border: 1px solid red;
+    
     
     div{
         background-color: $dark;
@@ -137,24 +144,33 @@ main{
 
 footer{
     position: absolute;
-    width: calc(75vw - 6rem);
+    width: 70vw;
     // padding: 1rem;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     bottom: 0;
-    height: 2rem;
+    height: 5vh;
     font-size: 1rem;
     line-height: 2rem;
     color: #ccc;
     background-color: $darkest;
-    margin: 0 2rem 0 2rem;
+    margin: 0 2.5vw 0 2.5vw;
     
 }
 #title{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    // background-color: yellow;
     font-size: 2.8rem;
     padding-left: 3rem;
     padding-top: 1rem;
+    height: 15vh;
     // display: none;
+}
+
+.sidebar_stats{
+    background-color:$dark;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin: 2rem;
+    height: 15vh;
 }
