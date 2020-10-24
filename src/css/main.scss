@@ -32,58 +32,57 @@ main{
 
         & .temp-container{
             width: 100%;
-            padding-top: 25vh;
-            // background-color: rgb(141, 32, 32);
-            height: 60vh;
+            margin-right: 2rem;
+            padding: 2rem;
+            // padding-top: 4rem;
+            // background-color: red;
+
+            .temp-wrapper{
+                // background-color: $darker; 
+                font-family: Arial, Helvetica, sans-serif ;
+                display: flex;
+                justify-content: space-between;
+                
+                section{
+                    width: 50%;
+                }
+            }
 
             .location{
                 color: #fff;
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                text-align: center;
-                font-size: 1.2rem;
+                font-size: 1.4rem;
+                .date{
+                    padding-top: .45rem;
+                    padding-bottom: .1rem;
+                    font-size: 1rem;
+                }
             }
-
-            hr{
-                width: 14rem;
-                margin: 0 auto;
-                height: 0.1rem;
-                background-color: #fff;
-                border: 0;
-                outline: 0;
-            }
-             .status{
-                 padding-top: .8rem;
-                 display: flex;
-                 justify-content: center;
-                 font-size: 2rem;
-                 color: #fff;
-                 
-                 span{
-                     margin: 0 0.5rem;
-                 }
-             }
-
 
             & .temp{
-                width: 50%;
                 color: #fff;
-                margin: 0 auto;
                 display: flex;
-                text-align: center;
-                justify-content: center;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                font-size: 1.2rem;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                // text-align: center;
+                padding-left: 2rem;
+                span{
+                    width: 100%;
+                    line-height: 1.9rem;
+                    font-size: 1.25rem;
+                }
                 // background-color: red;
+                div{
+                    font-size: 3.5rem;
+                    font-family: Arial, Helvetica, sans-serif;
+                    width: 100%;
+                    line-height: 3.75rem;
+                    // background-color: burlywood;
+                }
 
-                :nth-child(1){
-                    font-size: 5rem;
-                }
-                :nth-child(2){
-                    font-size: 2rem;
-                    padding-top: 0.5rem;
-                }
-                :nth-child(3){
-                    font-size: 3rem;
-                    padding-top: 0.4rem;
-                }
             }
         }
     }

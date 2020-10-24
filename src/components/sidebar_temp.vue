@@ -1,16 +1,16 @@
 <template>
     <div class="temp-container">
-        <div class="location">DHANBAD | INDIA</div>
-        <section class="temp">
-            <div>32</div>
-            <div>°</div>
-            <div>C</div>
-        </section>
-        <hr />
-        <section class="status">
-            <span>Cloudy</span>
-            <span>/////</span>
-        </section>
+        <div class="temp-wrapper">
+            <section class="location">
+                <div class="city">Dhanbad</div>
+                <div class="country">India</div>
+                <div class="date">24 October </div>
+            </section>
+            <section class="temp">
+                <div>27°</div>
+                <span>Cloudy</span>
+            </section>
+        </div>
     </div>
 
 </template>

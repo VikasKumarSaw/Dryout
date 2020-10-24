@@ -35,67 +35,67 @@ main #side {
 
 main #side .temp-container {
   width: 100%;
-  padding-top: 25vh;
-  height: 60vh;
+  margin-right: 2rem;
+  padding: 2rem;
+}
+
+main #side .temp-container .temp-wrapper {
+  font-family: Arial, Helvetica, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main #side .temp-container .temp-wrapper section {
+  width: 50%;
 }
 
 main #side .temp-container .location {
   color: #fff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
-main #side .temp-container hr {
-  width: 14rem;
-  margin: 0 auto;
-  height: 0.1rem;
-  background-color: #fff;
-  border: 0;
-  outline: 0;
-}
-
-main #side .temp-container .status {
-  padding-top: .8rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 2rem;
-  color: #fff;
-}
-
-main #side .temp-container .status span {
-  margin: 0 0.5rem;
+main #side .temp-container .location .date {
+  padding-top: .45rem;
+  padding-bottom: .1rem;
+  font-size: 1rem;
 }
 
 main #side .temp-container .temp {
-  width: 50%;
   color: #fff;
-  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  font-size: 1.2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 2rem;
 }
 
-main #side .temp-container .temp :nth-child(1) {
-  font-size: 5rem;
+main #side .temp-container .temp span {
+  width: 100%;
+  line-height: 1.9rem;
+  font-size: 1.25rem;
 }
 
-main #side .temp-container .temp :nth-child(2) {
-  font-size: 2rem;
-  padding-top: 0.5rem;
-}
-
-main #side .temp-container .temp :nth-child(3) {
-  font-size: 3rem;
-  padding-top: 0.4rem;
+main #side .temp-container .temp div {
+  font-size: 3.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  line-height: 3.75rem;
 }
 
 main #side-nav {
